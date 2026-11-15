@@ -1,0 +1,6 @@
+data/
+export/
+*_boubou*
+.ipynb_checkpoints/
+__pycache__/
+test_onnx.py
