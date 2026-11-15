@@ -2,6 +2,8 @@
 
 Prediction of nine lithofacies from wireline logs in the public SEG 2016 facies classification dataset. A Keras neural network is compared with logistic regression and gradient boosting, every model is evaluated on wells held out entirely from training, and the network is exported to ONNX for a web application that classifies a new well from a CSV file.
 
+This project continues [Well-Log Machine Learning from Scratch](https://github.com/BoualemP/well-log-ml-from-scratch), which separated marine from non-marine intervals in the same dataset with linear models. It moves to the full nine-facies problem and follows that project's next steps: depth-context features and non-linear models.
+
 ## Results
 
 Macro F1 (every facies weighs the same); test wells NEWBY and SHANKLE:
